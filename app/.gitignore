@@ -1,1 +1,6 @@
 /bin
+hamcrest*
+junit*
+tags
+cscope*
+*.class
