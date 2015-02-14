@@ -10,4 +10,5 @@ public abstract class Block {
 	public Block() {}
 
 	public abstract boolean isValidDirection(Direction dir);
+	public abstract String name();
 }

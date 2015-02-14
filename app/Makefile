@@ -21,7 +21,8 @@ TESTSRC= \
          $(TESTDIR)/AllTests.java \
          $(TESTDIR)/HorizontalBlockTest.java \
          $(TESTDIR)/TargetBlockTest.java \
-         $(TESTDIR)/VerticalBlockTest.java
+         $(TESTDIR)/VerticalBlockTest.java \
+         $(TESTDIR)/GameBoardTest.java
 GTESTSRC=$(BLOCKDIR)/GUITest.java
 
 CLASSES = \

@@ -6,4 +6,9 @@ package pt314.blocks.game;
 public class TargetBlock extends HorizontalBlock {
 
 	public TargetBlock() {}
+
+    @Override
+    public String name() {
+        return "⬦";
+    }
 }

@@ -5,10 +5,15 @@ package pt314.blocks.game;
  */
 public class VerticalBlock extends Block {
 
-	public VerticalBlock() {}
+    public VerticalBlock() {}
 
-	@Override
-	public boolean isValidDirection(Direction dir) {
-		return dir == Direction.UP || dir == Direction.DOWN;
-	}
+    @Override
+    public boolean isValidDirection(Direction dir) {
+        return dir == Direction.UP || dir == Direction.DOWN;
+    }
+
+    @Override
+    public String name() {
+        return "▲▼";
+    }
 }
